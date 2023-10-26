@@ -1,0 +1,3 @@
+/home/koko/CLionProjects/zXC/cmake-build-debug/CMakeFiles/zXC.dir
+/home/koko/CLionProjects/zXC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/koko/CLionProjects/zXC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
