@@ -61,6 +61,12 @@ build CMakeFiles/zXC.dir/src/fileExplorer/search.c.o: C_COMPILER__zXC_unscanned_
   OBJECT_DIR = CMakeFiles/zXC.dir
   OBJECT_FILE_DIR = CMakeFiles/zXC.dir/src/fileExplorer
 
+build CMakeFiles/zXC.dir/src/interactor/interactor.c.o: C_COMPILER__zXC_unscanned_Debug /home/koko/CLionProjects/zXC/src/interactor/interactor.c || cmake_object_order_depends_target_zXC
+  DEP_FILE = CMakeFiles/zXC.dir/src/interactor/interactor.c.o.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/zXC.dir
+  OBJECT_FILE_DIR = CMakeFiles/zXC.dir/src/interactor
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target zXC
@@ -69,7 +75,7 @@ build CMakeFiles/zXC.dir/src/fileExplorer/search.c.o: C_COMPILER__zXC_unscanned_
 #############################################
 # Link the executable zXC
 
-build zXC: C_EXECUTABLE_LINKER__zXC_Debug CMakeFiles/zXC.dir/main.c.o CMakeFiles/zXC.dir/src/fileExplorer/search.c.o
+build zXC: C_EXECUTABLE_LINKER__zXC_Debug CMakeFiles/zXC.dir/main.c.o CMakeFiles/zXC.dir/src/fileExplorer/search.c.o CMakeFiles/zXC.dir/src/interactor/interactor.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/zXC.dir
   POST_BUILD = :

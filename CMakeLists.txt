@@ -5,4 +5,6 @@ set(CMAKE_C_STANDARD 23)
 
 add_executable(zXC main.c
         src/fileExplorer/search.c
-        src/fileExplorer/search.h)
+        src/fileExplorer/search.h
+        src/interactor/interactor.c
+        src/interactor/interactor.h)
